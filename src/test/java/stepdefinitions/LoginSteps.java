@@ -27,7 +27,7 @@ public class LoginSteps {
 	
 	@And("I enter password")
 	public void enterPassword() {
-		PageFactory.getLoginPage().enterPassword("1234@5678");
+		PageFactory.getLoginPage().enterPassword("1234@567891");
 	}
 	
 	@And("I click on Sign in")
