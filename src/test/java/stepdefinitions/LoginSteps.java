@@ -33,6 +33,7 @@ public class LoginSteps {
 	@And("I click on Sign in")
 	public void clickOnSignInBtn() {
 		PageFactory.getLoginPage().clickOnSignInBtn();
+		System.out.println("this is commit 1 on master branch");
 	}
 	
 	@Then("I should be on accounts page")
